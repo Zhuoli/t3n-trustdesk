@@ -1,0 +1,12 @@
+{
+  "ticketId": "TCK-10042",
+  "memberLabel": "{{profile.display_name}}",
+  "contact": "{{profile.email}}",
+  "orderId": "ORD-77821",
+  "amountUsd": 49.0,
+  "currency": "USD",
+  "purchasedAt": "2026-09-03T18:22:00.000Z",
+  "reason": "Item arrived damaged",
+  "body": "The package was crushed on arrival and the device is defective. I would like a full refund. Order ORD-77821.",
+  "priorRefunds30d": 0
+}

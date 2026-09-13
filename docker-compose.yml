@@ -1,0 +1,9 @@
+services:
+  trustdesk:
+    image: node:20-bookworm-slim
+    working_dir: /app
+    volumes:
+      - ./:/app
+    environment:
+      TRUSTDESK_MODE: stub
+    command: bash -lc "npm install && npm run demo"

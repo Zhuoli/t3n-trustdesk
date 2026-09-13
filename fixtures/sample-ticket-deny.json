@@ -1,0 +1,12 @@
+{
+  "ticketId": "TCK-10099",
+  "memberLabel": "{{profile.display_name}}",
+  "contact": "{{profile.email}}",
+  "orderId": "ORD-55110",
+  "amountUsd": 120.0,
+  "currency": "USD",
+  "purchasedAt": "2026-07-01T12:00:00.000Z",
+  "reason": "Change of mind",
+  "body": "I don't want this anymore.",
+  "priorRefunds30d": 0
+}

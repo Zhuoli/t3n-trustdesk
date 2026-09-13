@@ -1,0 +1,30 @@
+{
+  "name": "t3n-trustdesk",
+  "version": "0.1.0",
+  "description": "TrustDesk — confidential support-ticket agent for Terminal 3 Network (T3N ADK Build Challenge)",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "auth": "tsx src/01-auth.ts",
+    "agent:register": "tsx src/02-register-agent.ts",
+    "tee": "tsx src/03-tee-contract.ts",
+    "demo": "tsx src/04-run-ticket.ts",
+    "smoke": "bash scripts/smoke.sh",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.13.10",
+    "tsx": "^4.19.3",
+    "typescript": "^5.8.2"
+  },
+  "optionalDependencies": {
+    "@terminal3/t3n-sdk": "5.2.0"
+  },
+  "license": "MIT",
+  "private": true
+}
